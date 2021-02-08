@@ -9,4 +9,4 @@ The code for this paper was developed inside the Google Earth Engine platform.
 
 ---
 
---> [Paper](https://doi.org/)
+### [Go to Paper](https://doi.org/)
