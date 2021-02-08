@@ -4,7 +4,7 @@ The code for this paper was developed inside the Google Earth Engine platform.
 ---
 ### Graphical Abstract
 
-![alt text](https://github.com/aksoysamet/SoilSalinity/raw/main/graphicalabstract.tiff "Graphical Abstract")
+![alt text](https://github.com/aksoysamet/SoilSalinity/raw/main/graphicalabstract.png "Graphical Abstract")
 ---
 
 --> [Paper](https://doi.org/)
