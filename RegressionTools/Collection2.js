@@ -39,7 +39,6 @@ function getSI3(img) {return img.expression("sqrt((i.GREEN*i.GREEN) + (i.RED*i.R
 function getSI4(img) {return img.expression("(i.BLUE*i.RED)/i.GREEN", {i:img}).rename("SI4")}
 function getSI5(img) {return img.expression("(i.GREEN+i.RED)/2", {i:img}).rename("SI5")}
 function getSI(img) {return getSI1(img).addBands(getSI2(img)).addBands(getSI3(img)).addBands(getSI4(img)).addBands(getSI5(img)).addBands(getTahaSI(img))}
-function getTahaSI(img) {return img.expression("(i.BLUE*i.RED)/abs(i.NIR-i.RED)", {'i': img}).rename("SI")}
 
 //Vegetation indices (VD)
 function getNDVI(img) {return img.normalizedDifference(["NIR", "RED"]).rename("NDVI")}
@@ -80,7 +79,6 @@ exports.getSI5   = getSI5
 exports.getPCA   = getPCA
 exports.getTC    = getTC
 
-exports.getTahaSI= getTahaSI
 
 exports.getNDVI  = getNDVI
 exports.getSAVI  = getSAVI
